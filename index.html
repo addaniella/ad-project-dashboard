@@ -234,9 +234,9 @@ td.num{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text2)}
 // ============================================================
 //  CONFIG — Google Sheet ID (just the ID, not the full URL)
 // ============================================================
-let SHEET_ID = '';
+let SHEET_ID = '1nTiGsZuLfalNiy5FaL2JwWxJuGVLwtmVi7jFbB6xc3c';
 
-// Try loading from localStorage
+// Also check localStorage for override
 try {
   const saved = localStorage.getItem('ad_tracker_sheet_id');
   if (saved) SHEET_ID = saved;
